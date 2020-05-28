@@ -4,8 +4,7 @@ import './video.css';
 import { Button } from 'react-bootstrap';
 
 const axios = require('axios').default;
-// const apiUrl = 'https://randomvideos.herokuapp.com/api/youtube';
-const apiUrl = 'http://localhost:5000/api/youtube';
+const apiUrl = 'https://randomvideos.herokuapp.com/api/youtube';
 
 const FORBIDDEN = 'forbidden';
 
