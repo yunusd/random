@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import Youtube from 'react-youtube';
 import './video.css';
-import { Button, Alert } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 const axios = require('axios').default;
 // const apiUrl = 'https://randomvideos.herokuapp.com/api/youtube';
